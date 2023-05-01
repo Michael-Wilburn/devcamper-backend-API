@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Wilburn/devcamper-backend-API.git"
+  },
+  "keywords": [
+    "backend",
+    "RESTful",
+    "API",
+    "nodejs",
+    "express",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Michael Wilburn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Michael-Wilburn/devcamper-backend-API/issues"
+  },
+  "homepage": "https://github.com/Michael-Wilburn/devcamper-backend-API#readme"
+}
