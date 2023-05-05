@@ -1,0 +1,89 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "devcamper-API",
+  "folderName": "",
+  "environmentName": "",
+  "collectioId": "30e7e314-ced6-4257-ab69-787e14f5a6d5",
+  "environmentId": "",
+  "dateExported": "2023-05-04T23:54:52.773Z",
+  "totalIterations": 1,
+  "totalPassed": 1,
+  "totalFailed": 0,
+  "failedIterations": [],
+  "iterations": [
+    {
+      "iteration": 1,
+      "totalRequests": 5,
+      "totalPassed": 5,
+      "totalFailed": 0,
+      "requests": [
+        {
+          "reqId": "968c8fa9-86c9-46b7-a025-a4eb1325db0b",
+          "name": "getBootcamps",
+          "method": "GET",
+          "url": "http://localhost:5001/api/v1/bootcamps",
+          "resCode": 200,
+          "resTime": 8,
+          "resTimeText": "8 ms",
+          "resSize": 43,
+          "passed": 0,
+          "total": 0,
+          "tests": []
+        },
+        {
+          "reqId": "bc11c845-c17b-43b6-b5a3-1d83022f18c0",
+          "name": "getBootcamp",
+          "method": "GET",
+          "url": "http://localhost:5001/api/v1/bootcamps/id",
+          "resCode": 200,
+          "resTime": 2,
+          "resTimeText": "2 ms",
+          "resSize": 40,
+          "passed": 0,
+          "total": 0,
+          "tests": []
+        },
+        {
+          "reqId": "ae1549e2-be2a-4775-983c-f3c905012e4b",
+          "name": "createBootcamp",
+          "method": "POST",
+          "url": "http://localhost:5001/api/v1/bootcamps",
+          "resCode": 201,
+          "resTime": 2,
+          "resTimeText": "2 ms",
+          "resSize": 46,
+          "passed": 0,
+          "total": 0,
+          "tests": []
+        },
+        {
+          "reqId": "9441a08d-df54-42c3-98a0-1ac50591e7bc",
+          "name": "updateBootcamp",
+          "method": "PUT",
+          "url": "http://localhost:5001/api/v1/bootcamps/id",
+          "resCode": 201,
+          "resTime": 1,
+          "resTimeText": "1 ms",
+          "resSize": 43,
+          "passed": 0,
+          "total": 0,
+          "tests": []
+        },
+        {
+          "reqId": "658dc1fb-3df1-41f2-a542-7593180c1de2",
+          "name": "deleteBootcamp",
+          "method": "DELETE",
+          "url": "http://localhost:5001/api/v1/bootcamps/id",
+          "resCode": 201,
+          "resTime": 2,
+          "resTimeText": "2 ms",
+          "resSize": 43,
+          "passed": 0,
+          "total": 0,
+          "tests": []
+        }
+      ]
+    }
+  ],
+  "folderId": ""
+}
